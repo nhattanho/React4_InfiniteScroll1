@@ -4,18 +4,18 @@ import axios from 'axios';
 import './App.css';
 
 const apiRoot = "https://api.unsplash.com";
-const accessKey = "f2xPTZ6zB7zbzdB2wun7etcviDb52SBewIPpkus38v4";
+const accessKey = "your API key";
 
 const App = () => {
   const [images, setImages] = useState([]);
   const [loaded, setIsLoaded] = useState(false);
   const fetchImages = async (count = 20) => {
     console.log('I am in useEffect');
-    const abortController = new AbortController();
+    const abortController = new AbortController(); // clear subscription of Hook
     const signal = abortController.signal;
     try {
       const res = await axios.get(`${apiRoot}/photos/random?client_id=${accessKey}&count=${count}`, {signal:signal});
-      setImages([...images, ...res.data]);
+      setImages([...images, ...res.data]); // new array has elements which are all elements of images array and res.data array
       setIsLoaded(true);
     } catch(error) {
         alert(error);
