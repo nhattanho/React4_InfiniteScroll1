@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React4_InfiniteScroll1/static/css/main.75870f8f.chunk.css",
+    "main.js": "/React4_InfiniteScroll1/static/js/main.2b28aca5.chunk.js",
+    "main.js.map": "/React4_InfiniteScroll1/static/js/main.2b28aca5.chunk.js.map",
+    "runtime-main.js": "/React4_InfiniteScroll1/static/js/runtime-main.4fe1bba0.js",
+    "runtime-main.js.map": "/React4_InfiniteScroll1/static/js/runtime-main.4fe1bba0.js.map",
+    "static/js/2.762e1043.chunk.js": "/React4_InfiniteScroll1/static/js/2.762e1043.chunk.js",
+    "static/js/2.762e1043.chunk.js.map": "/React4_InfiniteScroll1/static/js/2.762e1043.chunk.js.map",
+    "index.html": "/React4_InfiniteScroll1/index.html",
+    "precache-manifest.fc53a79db262e328ffa2e0eb33fe1d26.js": "/React4_InfiniteScroll1/precache-manifest.fc53a79db262e328ffa2e0eb33fe1d26.js",
+    "service-worker.js": "/React4_InfiniteScroll1/service-worker.js",
+    "static/css/main.75870f8f.chunk.css.map": "/React4_InfiniteScroll1/static/css/main.75870f8f.chunk.css.map",
+    "static/js/2.762e1043.chunk.js.LICENSE.txt": "/React4_InfiniteScroll1/static/js/2.762e1043.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4fe1bba0.js",
+    "static/js/2.762e1043.chunk.js",
+    "static/css/main.75870f8f.chunk.css",
+    "static/js/main.2b28aca5.chunk.js"
+  ]
+}
